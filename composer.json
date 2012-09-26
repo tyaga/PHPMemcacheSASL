@@ -1,0 +1,27 @@
+{
+    "name": "tyaga/memcache-sasl",
+    "type": "library",
+    "description": "Memcache class with SASL support",
+    "keywords": ["memcached","sasl"],
+    "homepage": "http://github.com/tyaga/PHPMemcacheSASL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronny Wang",
+            "email": "ronnywang@gmail.com",
+            "role": "Creator"
+        },
+        {
+            "name": "Alexey Tyagunov",
+            "email": "tyaga@gmail.com",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [ "MemcacheSASL.php"]
+        }
+    }
+}
